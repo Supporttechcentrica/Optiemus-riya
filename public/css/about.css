@@ -1,0 +1,154 @@
+
+/*hero below css strat*/
+.icon-list i { color: #2CB98B; margin-right: 10px; }
+.card {
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.card:hover {
+    background-color: #f8f9fa;
+    transform: scale(1.05);
+}
+.card img { width: 50px; margin-bottom: 10px; }
+/* hero below css end */
+
+/*hero start*/
+  .hero-content {
+    /* background: rgba(0, 0, 0, 0.6); */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -340px;
+  }
+  .hero h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    font-size: 22px;
+    max-width: 700px;
+  }
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 32px;
+    }
+    .hero p {
+      font-size: 16px;
+    }
+  }
+  /*Hero End*/
+  
+  /*Below Hero start*/
+  .hero-below-section {
+    padding: 60px 0px;
+  }
+  .custom {
+    font-size: 22px;
+  }
+/*hero end*/
+.whyusss{
+    padding:0px 80px 60px 80px;
+}
+.whyus h5{
+    font-size:22px;
+}
+.leadingtheway{
+    padding:120px 60px 120px 60px;
+    background-color:#F0F0F0;
+    margin-top:0px !important;
+}
+
+.custom li{
+    line-height: 40px;
+    font-size:20px ;
+}
+@media (max-width: 428px) {
+    .custom li{
+        line-height: 30px;
+        font-size:16px ;
+}
+}
+
+
+.whyus .card {
+    background-color:#0e4d78; /* Gradient background */
+    color: #ffffff; /* Default text color */
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px; /* Optional: Smooth edges */
+    box-shadow: none; /* No border or shadow initially */
+    transform: scale(1); /* Normal size */
+    border:2px solid #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+    height:230px;
+}
+
+.whyus .card:hover {
+    background: #0E4D78 !important; /* Solid #0E4D78 background on hover */
+    color: white !important; /* Text and heading turn white */
+    transform: scale(1.05); /* Slightly enlarge the box */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.whyus .card h5 {
+    color: #ffffff; /* Default heading color */
+    transition: color 0.3s ease-in-out;
+}
+
+.whyus .card:hover h5 {
+    color: white !important; /* Heading turns white on hover */
+}
+
+.whyus .card p {
+    color: #ffffff; /* Default paragraph color */
+    transition: color 0.3s ease-in-out;
+}
+
+.whyus .card:hover p {
+    color: white !important; /* Paragraph text turns white on hover */
+}
+
+.whyus .card img {
+    background-color: white; /* Image background white */
+    border-radius: 100%; /* Circular image */
+    padding: 10px; /* Optional padding */
+    transition: all 0.3s ease-in-out;
+}
+
+.whyus .card:hover img {
+    background-color: #ffffff !important; /* On hover, image background turns #0E4D78 */
+}
+
+/*above footer start*/
+
+
+/*above footer end*/
+
+
+/*divider start*/
+.divider {
+    border: none;
+    height: 2px;
+    background-color: #333;
+    width: 620px;
+    margin: 20px auto;
+}
+/* For Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .divider {
+        width: 80%; /* Adjust width dynamically */
+    }
+}
+
+/* For Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .divider {
+        width: 60%; /* Slightly smaller for mobile screens */
+    }
+}
+
+
+/*divider end*/
+svg.svg-inline--fa.fa-circle-check {
+    margin-right: 10px;
+    color:#2CB98B;
+}
